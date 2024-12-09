@@ -3,7 +3,7 @@ import remarkGfm from 'remark-gfm'
     
     export default function  Section(props)
     {
-        console.log(props.recipetext)
+        
         return(
             <>
                <section>

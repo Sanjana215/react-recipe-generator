@@ -1,6 +1,6 @@
 export default function Ingridients(props)
 {
-    let newitems=props.newitems.map((item)=>{return <li>{item}</li>})
+    let newitems=props.newitems.map((item,idx)=>{return <li key={idx}>{item}</li>})
     return(
         <section>
                {props.newitems.length>0 && <h2>List of Ingridients:</h2>}
