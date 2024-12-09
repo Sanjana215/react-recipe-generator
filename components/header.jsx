@@ -6,7 +6,7 @@ export default function Header()
         <>
            <header>
             <div>
-               <img src="chef.jpg" alt="image"/>
+               <img src="/chef.jpg" alt="image"/>
             </div>
               <h1>Chef Claude</h1>
            </header>
